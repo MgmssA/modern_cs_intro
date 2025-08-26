@@ -1,0 +1,140 @@
+---
+title: | 
+    <p>![](style/mgmss_brand_color.png){width=40px}</p>
+    Einstieg in die moderne Informatik
+subtitle: |
+    Einführung mit Aufgaben <br>
+    <br>
+    Einführung: 2025-08-25 <br>
+    Abgabetermin: 2025-09-15 (Doppelrohr bei Nichteinreichen am Termin)
+date: 2025-08-26 
+date-modified: 2025-08-26
+author: Călin Drăgan  
+lang: de 
+abstract: In diesem Dokument bekommst Du einen Eindruck von der modernen Informatik. Du lernst die verschiedenen Fachgebiete kennen und wirst verstehen wo sie eingesetzt werden und warum. Die anschliessenden Aufgaben werden Dein Fachwissen festigen. 
+title-block-banner: true
+format: 
+    html: 
+        toc: true
+        toc-depth: 5
+        toc-location: right
+        appendix-style: default
+        callout-appearance: default
+        callout-icon: false
+        # embed-resources: true
+        # self-contained-math: true
+engine: knitr
+brand: style/_brand.yml
+filters: 
+  - highlight-text
+css: style/style.css
+---
+
+## Was ist Informatik?
+
+Die Informatik beschäftigt sich mit Fragestellungen und Lösungen rund um Information, Daten, und Berechenbarkeit als auch mit deren Konzeption, Bau, Implementierung und Anwendung in und als **Computer** und **Computersystemen**. Vor der Erfindung des digitalen Computers, waren Computer für Jahrhunderte meistens als Frauen bekannt, die mathematische Berechnungen ausführten. 
+
+::: {#fig-women-computers}
+
+![](img/women_computers.jpg)
+
+Vor der Markteinführung von kommerziell erhältlichen digitalen Computern, waren hauptsächlich Frauen damit beschäftigt, mehr oder weniger komplexe mathematische Berechnungen auszuführen. Diese Frauen haben durch ihre Arbeit maßgeblich zu vielen Errungenschaften beigetragen.
+:::
+
+## Fachgebiete der Informatik 
+
+Das Fach Informatik deckt viele und teilweise sehr unterschiedliche Gebiete ab. Wir werden nicht ins Detail gehen aber eine Übersicht kann nie schaden. Um die verschiedenen Gebiete und deren Bedeutung zu verdeutlichen, werden wir die Umsetzung eines Muffinrezeptes als Beispiel verwenden. Dazu verwenden wir abgesetzte klappbare Textblöcke wie den folgenden, in dem die Anwendung von Fachbegriffen anhand des Rezeptes und der dazugehörigen Prozessen verdeutlicht wird. Die Erklärung wird durch Ausklappen sichtbar. 
+
+::: {.callout-note title="![](img/mdi--muffin.png){.baseline-centered-image width=24px} Verstehe etwas durch das Muffinrezept und klapp mich auf!" collapse="true"}
+Hier wirst Du immer eine Erklärung zu Fachbegriffen vorfinden, die sich auf das Muffinbacken bezieht. Wir fangen gleich damit an. Das Muffinrezept ist nämlich ein Computerprogramm, die Küche ein Computer und Du bist der Koch. Was Du bist wird in einem späteren Textblock klar. 
+:::
+
+### Grundlagen
+
+Informatik ist in weiten Teilen angewandte **Mathematik**. Deshalb sind mathematische Grundlagen wie Logik, Zahlentheorie, Graphentheorie, und andere Gebiete wichtige Bausteine. Auf ihnen werden **Algorithmen** und **Datenstrukturen** aufgebaut. Dies sind die Grundelemente der Berechenbarkeit. 
+
+::: {#fig-khwarizmi}
+![](img/khwarizmi_algebra.jpg){width=30%}
+
+Das Wort *Algorithmus* ist von dem Namen des persischen Mathematikers Muḥammad ibn Mūsā al-Khwārizmī, محمد بن موسى الخوارزميّ‎, * ~780 † ~830, abgeleitet. Er hat die ersten algebraischen Rechenvorschriften in das indische Zahlensystem übertragen und beschrieben. Gezeigt ist hier eine Seite aus seinem Algebrawerk.
+:::
+
+::: {.callout-note title="![](img/mdi--muffin.png){.baseline-centered-image width=24px} Datenstrukturen (was kommt rein?) und Algorithmen (wie machen wir es?) mit Muffins" collapse="true"}
+Das Computerprogramm besteht aus der Datenstruktur Zutaten (engl. *ingridients*) und dem Algorithmus Zubereitung (engl. *instructions*). Wir brauchen beide Elemente, damit wir *diese* Muffins herstellen können.
+
+::: {layout-ncol=2}
+![](img/muffin_data.png){width=50%}
+
+![](img/muffin_algorithm.png){width=50%}
+:::
+:::
+
+### Grundbausteine
+
+Die **Theorien von Berechenbarkeit** ermitteln inwiefern Algorithmen bestimmte Probleme lösen können. Dabei wird die Lösungsgenauigkeit und die Effizienz der Algorithmen untersucht. 
+
+::: {#fig-turing}
+![](img/alan_turing_header.jpg){width=30%}
+
+Alan Turing, * 1912 † 1954, war ein englischer Mathematiker, der sich als Erster über Berechenbarkeit Gedanken gemacht hat. Er hat dann ein Berechnungssystem erfunden, dass der Funktionsweise des modernen Computers entspricht.
+:::
+
+::: {.callout-note title="![](img/mdi--muffin.png){.baseline-centered-image width=24px} Berechenbarkeit (können wir es machen?), Lösungsgenauigkeit (wie gut wird es?) und Effizienz (wie schnell wird es fertig und wie viel Energie stecken wir rein?) beim Muffinbacken" collapse="true"}
+Bei der Berechenbarkeit mithilfe unseres Computerprogramms, dem Muffinrezept, kann man erfragen, ob es nur Muffins produziert. Was ist zum Beispiel mit Zimtsternen? Ist es dafür geeignet? Kann unser Programm auch Zimtsterne "berechnen"? Dabei wäre es wichtig zu wissen, ob das Produkt, die Muffins oder die Zimtsterne, eher groß oder eher klein geraten. Schließlich wollen wir auch erfahren in welcher Zeit die Muffins "berechnet" oder fertig werden.
+::: 
+
+Die **Theorien der Programmiersprachen** behandeln die Art und Weise, wie wir Computern etwas mitteilen. Ein **Compiler** ist eine Software, die eine Programmiersprache in ein andere umwandelt; wir können sie grob als Übersetzer bezeichnen. Viele Compiler übersetzen Programmiersprachen in Maschinensprache; diejenige Sprache, die von den integrierten Schaltungen verstanden wird. Die **Compilertheorien** ermöglichen das Design solcher Übersetzer.
+
+::: {.callout-note title="![](img/mdi--muffin.png){.baseline-centered-image width=24px} Programmiersprachen (wie schreiben wir es auf?) und Compiler (wie können wir es übersetzen?) beim Muffinbacken" collapse="true"}
+Die Programmiersprache legt die Art und Weise fest, mit der wir Zutaten und Zubereitung beschreiben. Der Compiler kann uns zum Beispiel helfen, das Rezept aus dem englischen in Brailleschrift zu übersetzen. 
+::: 
+
+### Anwendungsbezogene Felder 
+
+Die **Computerarchitektur** beschäftigt sich mit dem Design und der Optimierung von Computersystemen und deren Betriebssysteme. Darunter fallen auch **gleichzeitig, parallel und verteilt arbeitende Systeme** und deren besonderer Eigenschaften. Computersysteme wollen miteinander sprechen und dafür braucht man Leitungen, spezielle Sprachen für die Informationsübertragung und eine gewisse Sicherheit gegenüber schädlichen Einflüssen. Diese Überlegungen finden eine Heimat in den Fachgebieten **Vernetzung**, **Netzwerktechnik**, **Verschlüsselung** und der **Cybersicherheit**. 
+
+::: {.callout-note title="![](img/mdi--muffin.png){.baseline-centered-image width=24px} Computerarchitektur (wie richten wir die Küche ein?), Betriebssystem (das ist der Koch) Verarbeitungsart (gleichzeitig, parallel, oder nacheinander?), Kommunikationstechnik (wie und was teilen wir anderen mit?) und Cybersicherheit (wie halten wir das Rezept geheim?) in der Muffinwelt" collapse="true"}
+Die Computerarchitektur hilft uns, unsere Küche so zu planen und einzurichten, dass wir möglichst effizient arbeiten. Dabei können mehrere Teilschritte entweder gleichzeitig, parallel oder nacheinander ausgeführt werden. Die Netzwerk- und Kommunikationstechnik ist unser Küchentelefon, mit dem wir Zutaten bestellen, falls sie zur Neige gehen. Dabei achtet die Cybersicherheit darauf, dass keiner mithört und uns das Rezept stiehlt. 
+::: 
+
+Für die visuelle Darstellung ist das Feld der **Computergrafik** zuständig. Sie spielt eine außerordentlich wichtige Rolle beim zocken. Eine weiterer Aspekt ist die Speicherung von Daten in **Datenbanken**. Deren Zuverlässigkeit und Robustheit ist in der heutigen Welt fast noch wichtiger als die Grafik. 
+
+::: {#fig-game-graphics}
+![](img/samsung-memory-Tu8F7ojdiEo-unsplash.jpg){width=75%}
+
+Computergrafik spielt bei Computerspielen eine enorm große Rolle. Die Verfahren, die hier eingesetzt werden sind über Jahrzehnte entwickelt worden und besitzen einen hohen mathematischen Anteil.
+:::
+
+Die Umsetzung **wissenschaftlicher Berechnungen** sind ebenfalls Teil der Informatik. Sie hat in den letzten Jahrzehnten gerade in der Biologie eine zunehmende Bedeutung erfahren. Zu guter Letzt bleibt das aktuelle Thema übrig: **künstlichen Intelligenz**. In der Informatik wird seit etwa 50 Jahren and der Automatisierung des Lernens und der Wiedergabe des Erlernten geforscht. Die heutigen sehr ineffizienten Systeme sind unter sehr großem Aufwand entstanden und haben enorm viel Kapital gebunden. Es bleibt abzuwarten, ob diese Art der KI die Weltwirtschaft nachhaltig vergrößert.  
+
+::: {.callout-note title="![](img/mdi--muffin.png){.baseline-centered-image width=24px} Computergrafik (wie stelle ich was dar?), Datenbanken (eine Schublade voller geordneter Rezepte), wissenschaftliche Berechnungen (können wir es herausfinden und vorhersagen?), künstliche Intelligenz (kann mich der Herd unterstützen?) in Muffinhausen" collapse="true"}
+Die Computergrafik zeigt Dir tolle dreidimensionale Muffinmodelle. Die Datenbank benutzen wir, um die Zutaten in einem älteren Muffinrezept einzusehen. Wir machen mithilfe von wissenschaftlichen Berechnungen eine Vorhersage über die Backzeit nachdem wir die Daten des älteren Rezeptes in ein Backmodell eingefügt haben. Die künstliche Intelligenz liegt manchmal daneben bei der Interpretation von vorhandenen Rezepten. Sie klingt aber immer so sicher, dass wir ihr fast Glauben schenken. Sie zeigt auch recht wenig Innovation bei der Erfindung neuer Rezepte. Aber wir stellen zufrieden fest, dass sie kleine Abwandlungen unseres Muffinrezeptes durchaus auf die Reihe kriegt. 
+::: 
+
+Über viele dieser Gebiete thront die **Softwaretechnik**, wenn es zur Umsetzung kommt. Sie ist maßgeblich an der Entstehung komplexer Softwaresystemen mit Zehntausenden bis Millionen Zeilen Code beteiligt. Es haben sich verschieden Ansichten und Richtungen in diesem Bereich gebildet. Das ist ein Zeichen dafür, dass Softwaretechnik sich an die Gegebenheiten anpassen kann. 
+
+::: {.callout-note title="![](img/mdi--muffin.png){.baseline-centered-image width=24px} Softwaretechnik (wie plane ich ein neues Rezept?) im Zeichen des Muffins" collapse="true"}
+Softwaretechnik diszipliniert uns bei der Erstellung neuer Rezepte. Aber es ist durchaus schwer verdientes Geld, denn dafür musste der Koch in einem Sternerestaurant mit Anspruch angelernt werden. Darüberhinaus, wird jeder Schritt in unserer Küche penibel dokumentiert. Wir zweifeln manchmal daran, ob der Aufwand dem Ziel gerecht wird.  
+::: 
+
+## Aufgaben
+
+#### Stufe I
+
+#. Gib eine möglichst einfache Beschreibung für den Fachbegriff **Algorithmus**.
+
+#. Was ist eine Datenstruktur?
+
+#### Stufe II
+
+#. Wie kannst Du nachprüfen, dass eine ganze Zahl eine Primzahl ist? Was fällt Dir an den Lösungen auf?
+
+#. Wie kannst Du eine ganze Zahl komplett in seine Faktoren zerlegen? Was fällt Dir an dieser Lösung auf?
+
+#### Stufe III
+
+#. Beschreibe was eine gleichzeitige, parallele und verteilte Ausführung von Code bedeutet. Wie kann das erreicht werden?
+
+#. Was denkst Du warum man folgenden Satz gesagt hat: "Daten sind viel beharrlicher als Algorithmen."
+
+
