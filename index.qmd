@@ -7,8 +7,8 @@ subtitle: |
     <br>
     Einführung: 2025-08-25 <br>
     Abgabetermin: 2025-09-15 (Doppelrohr bei Nichteinreichen am Termin)
-date: 2025-08-26 
-date-modified: 2025-08-26
+date: 2025-08-27 
+date-modified: 2025-08-27 
 author: Călin Drăgan  
 lang: de 
 abstract: In diesem Dokument bekommst Du einen Eindruck von der modernen Informatik. Du lernst die verschiedenen Fachgebiete kennen und wirst verstehen wo sie eingesetzt werden und warum. Die anschliessenden Aufgaben werden Dein Fachwissen festigen. 
@@ -123,13 +123,13 @@ Softwaretechnik diszipliniert uns bei der Erstellung neuer Rezepte. Aber es ist 
 
 #. Gib eine möglichst einfache Beschreibung für den Fachbegriff **Algorithmus**.
 
-#. Was ist eine Datenstruktur?
+#. Was ist eine **Datenstruktur** in einer Programmiersprache?
 
 #### Stufe II
 
-#. Wie kannst Du nachprüfen, dass eine ganze Zahl eine Primzahl ist? Was fällt Dir an den Lösungen auf?
+#. Wie kannst Du nachprüfen, ob eine ganze Zahl eine Primzahl ist? Was fällt Dir an Deiner Lösung auf?
 
-#. Wie kannst Du eine ganze Zahl komplett in seine Faktoren zerlegen? Was fällt Dir an dieser Lösung auf?
+#. Wie kannst Du eine ganze Zahl komplett in seine Faktoren zerlegen? Was fällt Dir an Deiner Lösung auf? Wie unterscheidet sich die Lösung hier von der vorangegangenen Aufgabe?
 
 #### Stufe III
 
