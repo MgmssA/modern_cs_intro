@@ -2,13 +2,9 @@
 title: | 
     <p>![](style/mgmss_brand_color.png){width=40px}</p>
     Einstieg in die moderne Informatik
-subtitle: |
-    Einführung mit Aufgaben <br>
-    <br>
-    Einführung: 2025-08-25 <br>
-    Abgabetermin: 2025-09-15 (Doppelrohr bei Nichteinreichen am Termin)
+subtitle: Einführung mit Aufgaben <br>
 date: 2025-08-27 
-date-modified: 2025-08-27 
+date-modified: 2025-09-13 
 author: Călin Drăgan  
 lang: de 
 abstract: In diesem Dokument bekommst Du einen Eindruck von der modernen Informatik. Du lernst die verschiedenen Fachgebiete kennen und wirst verstehen wo sie eingesetzt werden und warum. Die anschliessenden Aufgaben werden Dein Fachwissen festigen. 
