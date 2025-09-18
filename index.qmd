@@ -2,7 +2,7 @@
 title: | 
     <p>![](style/mgmss_brand_color.png){width=40px}</p>
     Einstieg in die moderne Informatik
-subtitle: 'Eine kurze und knappe Einführung<br><small>Einführung mit Aufgaben</small>'
+subtitle: 'Ein kurzer und knapper Überblick<br><small>Einführung mit Aufgaben</small>'
 date: 2025-08-27 
 date-modified: 2025-09-13 
 author: Călin Drăgan  
